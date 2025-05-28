@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="question-container">
+            <p id="question-text"></p>
+        </div>
+        <div id="input-container">
+            <input type="text" id="text-answer" placeholder="Type your answer here...">
+            <button id="submit-text-answer">Submit Text</button>
+        </div>
+        <div id="audio-container">
+            <button id="start-record-btn">Start Recording</button>
+            <button id="stop-record-btn" disabled>Stop Recording</button>
+            <audio id="audio-playback" controls></audio>
+        </div>
+        <div id="status-messages">
+            <p id="status-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
